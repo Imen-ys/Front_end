@@ -119,7 +119,7 @@ return (
                                 <button className='border-none ml-1 px-1 py-1 bg-[--statistic-color]
                                                     sm:text-sm md:text-xl lg:text-2xl
                                                     xl:text-3xl 2xl:text-4xl'>
-                                    <Link to={`/Facture_Service_Info/${Facture.id}`}>
+                                    <Link to={`/avoire_Service_Info/${Facture.id}`}>
                                         <IoMdInformationCircleOutline />
                                     </Link>
                                 </button>

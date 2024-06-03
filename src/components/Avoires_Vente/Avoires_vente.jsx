@@ -23,8 +23,8 @@ const Avoires_vente = () => {
     const isLoading = useSelector(state => state.FactureServiceList.isLoading)
 
     useEffect(()=>{
-        //dispatch(getAll("https://jsonplaceholder.typicode.com/users"));
-        dispatch(getAll("http://127.0.0.1:8000/api/avoirs/vente/"));
+        dispatch(getAll("https://jsonplaceholder.typicode.com/users"));
+        //dispatch(getAll("http://127.0.0.1:8000/api/avoirs/vente/"));
     },[dispatch]);
 
     useEffect(() => {
@@ -128,7 +128,7 @@ const Avoires_vente = () => {
                                 <button className='border-none ml-1 px-1 py-1 bg-[--statistic-color]
                                                                 sm:text-sm md:text-xl lg:text-2xl
                                                                 xl:text-3xl 2xl:text-4xl'>
-                                    <Link to={`/Facture_Service_Info/${Facture.id}`}>
+                                    <Link to={`/avoire_Vente_Info/${Facture.id}`}>
                                         <IoMdInformationCircleOutline />
                                     </Link>
                                 </button>

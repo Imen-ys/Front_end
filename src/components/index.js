@@ -50,12 +50,13 @@ export {default as Avoire_PDF} from './PDF/Avoire_PDF'
 
 export {default as Avoires } from './Avoires/Avoires'
 export {default as Edit_Facture} from './Avoire_Facture/Avoire_Facture'
-export { default as Avoires_Vente} from './Avoires_Vente/Avoires_vente'
+export {default as Avoires_Vente} from './Avoires_Vente/Avoires_vente'
 export {default as Avoires_Service} from './Avoires_Service/Avoires_Service'
+export {default as Avoire_Vente_Info} from './Avoire_Vente_Info/Avoire_Vente_Info'
+export {default as Avoire_Service_Info} from './Avoire_Service_Info/Avoire_Service_Info'
 
 export {default as ProtectedRouters} from './Protected/ProtectedRoutes'
 export {default as Admin} from './Admin/Admin'
-
 
 export {default as Avoires_Item } from './Avoires_Item/Avoires_Item'
 

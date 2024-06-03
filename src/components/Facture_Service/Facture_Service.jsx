@@ -49,8 +49,8 @@ const Facture_Service = () => {
             });
     }, []);
     console.log("###########"+FactureServiceList)
-    const viewPDF = async (client) => {
-        const doc = <Facture_PDF client={client} />;
+    const viewPDF = async (id) => {
+        const doc = <Facture_PDF  id={id} />;
         const asPdf = pdf([]);
         asPdf.updateContainer(doc);
         const blob = await asPdf.toBlob();
